@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".ActivityProyectoIntoTarea">
+
+    <ImageView
+        android:id="@+id/fondo4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24"
+        app:srcCompat="@drawable/board" />
+
+    <ImageButton
+        android:id="@+id/atrasProyectoTareaInto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/iconcancel" />
+
+    <ImageButton
+        android:id="@+id/crearProyectoIntoActividad"
+        android:layout_width="25dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/iconadd" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="339dp"
+        android:layout_height="178dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24"
+        app:srcCompat="@drawable/itemescuela" />
+
+    <TextView
+        android:id="@+id/proyectoTareaIntoNombre"
+        android:layout_width="299dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/blanco"
+        android:padding="5dp"
+        android:text=" Lunes - Nombre"
+        app:layout_constraintEnd_toEndOf="@+id/imageView20"
+        app:layout_constraintStart_toStartOf="@+id/imageView20"
+        app:layout_constraintTop_toTopOf="@+id/imageView20" />
+
+    <TextView
+        android:id="@+id/proyectoTareaIntoInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/blanco"
+        android:padding="5dp"
+        android:text="1400 pm "
+        app:layout_constraintEnd_toStartOf="@+id/proyectoTareaIntoFin"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="@+id/imageView20"
+        app:layout_constraintTop_toBottomOf="@+id/proyectoTareaIntoDescripcion" />
+
+    <TextView
+        android:id="@+id/proyectoTareaIntoDescripcion"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/blanco"
+        android:padding="5dp"
+        android:text="año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) "
+        app:layout_constraintEnd_toEndOf="@+id/imageView20"
+        app:layout_constraintStart_toStartOf="@+id/imageView20"
+        app:layout_constraintTop_toBottomOf="@+id/proyectoTareaIntoNombre" />
+
+    <TextView
+        android:id="@+id/proyectoTareaIntoFin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="68dp"
+        android:background="@color/blanco"
+        android:padding="5dp"
+        android:text="12:00 am"
+        app:layout_constraintEnd_toEndOf="@+id/imageView20"
+        app:layout_constraintTop_toBottomOf="@+id/proyectoTareaIntoDescripcion" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Lista de actividades"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView20" />
+
+    <com.example.jean.proyectoandroid.SwipeList.SwipeListView
+        android:id="@+id/listView"
+        android:layout_width="349dp"
+        android:layout_height="285dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:splitMotionEvents="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/fondo4"
+        app:layout_constraintStart_toStartOf="@+id/fondo4"
+        app:layout_constraintTop_toBottomOf="@+id/textView23">
+
+    </com.example.jean.proyectoandroid.SwipeList.SwipeListView>
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="Tarea"
+        android:textColor="@color/blanco"
+        app:layout_constraintEnd_toStartOf="@+id/crearProyectoIntoActividad"
+        app:layout_constraintStart_toEndOf="@+id/atrasProyectoTareaInto"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name"> </string>
+    <string name="vacio">TODO</string>
+    <string name="condiciones">Aceptar los terminos y condiciones</string>
+    <string name="registrar">Registrar</string>
+    <string name="nombre">Nombre</string>
+    <string name="inicioMenu">reciente</string>
+    <string name="eventosMenu">eventos</string>
+    <string name="proyectosMenu">proyectos</string>
+    <string name="perfilMenu">perfil</string>
+    <string name="horariosMenu">horario</string>
+
+
+    <string-array name="dias">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sabado</item>
+        <item>Domingo</item>
+    </string-array>
+
+
+    <string-array name="tipoEvento">
+        <item>Cumpleaños</item>
+        <item>Trabajo</item>
+        <item>Univercidad</item>
+        <item>Festivo</item>
+        <item>Vacaciones</item>
+        <item>Matrimonio</item>
+        <item>Otro</item>
+    </string-array>
+
+
+</resources>

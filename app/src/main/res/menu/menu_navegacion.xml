@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/recienteMenu"
+        android:icon="@drawable/icupdaterelog"
+        android:title="@string/inicioMenu"/>
+
+
+    <item
+        android:id="@+id/horarioMenu"
+        android:icon="@drawable/libreriaicon"
+        android:title="@string/horariosMenu"/>
+
+
+    <item
+        android:id="@+id/eventoMenu"
+        android:icon="@drawable/iconeventos"
+        android:title="@string/eventosMenu"/>
+
+
+    <item
+        android:id="@+id/proyectoMenu"
+        android:icon="@drawable/iconwork"
+        android:title="@string/proyectosMenu"/>
+
+
+    <item
+        android:id="@+id/perfilMenu"
+        android:icon="@drawable/iconsface"
+        android:title="@string/perfilMenu"/>
+
+
+
+</menu>
